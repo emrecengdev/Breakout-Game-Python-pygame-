@@ -22,9 +22,9 @@ class StatusBar:
     
     @staticmethod
     def display_win_message(screen):
-        screen.blit(StatusBar.font.render('Ganhou! :)', True, StatusBar.color), StatusBar.win_loss_position)
+        screen.blit(StatusBar.font.render('You Win! :)', True, StatusBar.color), StatusBar.win_loss_position)
 
     @staticmethod
     def display_loss_message(screen):
-        screen.blit(StatusBar.font.render('Perdeu! :(', True, StatusBar.color), StatusBar.win_loss_position)
+        screen.blit(StatusBar.font.render('You Lose! :(', True, StatusBar.color), StatusBar.win_loss_position)
         
