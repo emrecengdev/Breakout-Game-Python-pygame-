@@ -5,6 +5,7 @@ This project is a classic Breakout game developed using Python and the pygame li
 
 # Demonstration Video
 
+https://github.com/emrecengdev/Breakout-Game-Python-pygame-/assets/76089961/04bd0ec5-b857-49d6-8b87-e37715842715
 
 ## Features
 
@@ -21,7 +22,7 @@ To run the game locally, ensure you have Python and the pygame library installed
 Install the pygame library using the following pip command:
 
 ```bash
-pip install pygame
+pip3 install pygame
 ```
 
 ### Running the Game
@@ -29,7 +30,7 @@ pip install pygame
 In the project directory, start the game using the command:
 
 ```bash
-python game.pyw
+python3 game.pyw
 ```
 
 ## Gameplay
