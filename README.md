@@ -1,6 +1,4 @@
-Elbette, projeniz için İngilizce bir README.md dosyası taslağını aşağıda Markdown formatında sunuyorum:
 
-```markdown
 # Breakout Game in Python
 
 This project is a classic Breakout game developed using Python and the pygame library. Players use a paddle to keep the ball in play and break bricks. The objective of the game is to break all the bricks to score the highest points.
@@ -56,5 +54,3 @@ If you wish to contribute to the project, please:
 
 This project is licensed under the [MIT License](LICENSE).
 ```
-
-Bu taslak, projenizin genel bir tanımını, kurulum ve çalıştırma talimatlarını, bağımlılıkları, oynanışı, projenin yapısını ve katkıda bulunma yönergelerini içerir. README.md dosyanızı bu taslağa göre özelleştirebilir ve projenize özel detayları ekleyebilirsiniz.
