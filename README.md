@@ -1,16 +1,60 @@
-# break-game
+Elbette, projeniz için İngilizce bir README.md dosyası taslağını aşağıda Markdown formatında sunuyorum:
 
-Break game made on pygame.
+```markdown
+# Breakout Game in Python
 
-Use the left and right arrow keys to control the board and guide the ball to destroy the bricks.
-In addition, as you destroy them, the ball gets slightly faster.
+This project is a classic Breakout game developed using Python and the pygame library. Players use a paddle to keep the ball in play and break bricks. The objective of the game is to break all the bricks to score the highest points.
 
-![brek](https://github.com/caiogevegir/break-game/assets/56521026/49938427-bfc3-42e6-ba44-d5a72c22128a)
+## Features
 
-## Known Issues
+- Classic Breakout game mechanics.
+- Increasing difficulty across various levels.
+- Score tracking and lives indicator.
 
-- The game treats the paddle as an 1D object, thus the ball may get "stuck" if it collides diagonally. Since the player does not lose the ball if it collides with the upper corners, let's pretend this is a feature :)
+## Installation
 
-## References
+To run the game locally, ensure you have Python and the pygame library installed.
 
-I followed this tutorial on [101Computing](https://www.101computing.net/breakout-tutorial-using-pygame-getting-started/) and made some improvements such as organization and custom assets.
+### Installing Dependencies
+
+Install the pygame library using the following pip command:
+
+```bash
+pip install pygame
+```
+
+### Running the Game
+
+In the project directory, start the game using the command:
+
+```bash
+python game.pyw
+```
+
+## Gameplay
+
+- Upon starting, the ball automatically begins to move.
+- Use the keyboard's left and right arrow keys to move the paddle.
+- Prevent the ball from falling and break all the bricks to complete the levels.
+
+## Project Structure
+
+- `game.pyw`: The main Python script for the game.
+- `components/`: Python scripts for game components (paddle, ball, bricks, etc.).
+- `assets/`: Folder containing the game's visual and audio files.
+
+## Contributing
+
+If you wish to contribute to the project, please:
+
+1. Fork the project.
+2. Add your feature or fix.
+3. Commit your changes.
+4. Create a pull request.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+```
+
+Bu taslak, projenizin genel bir tanımını, kurulum ve çalıştırma talimatlarını, bağımlılıkları, oynanışı, projenin yapısını ve katkıda bulunma yönergelerini içerir. README.md dosyanızı bu taslağa göre özelleştirebilir ve projenize özel detayları ekleyebilirsiniz.
